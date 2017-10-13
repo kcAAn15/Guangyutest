@@ -25,5 +25,11 @@ public class GuangyuTest {
 		
 		assertEquals(1, gy.run("a"));
 	}
+	
+	@Test
+	public void testRun3() {
+		
+		assertEquals(3, gy.run("abcab"));
+	}
 
 }
