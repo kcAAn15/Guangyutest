@@ -38,5 +38,9 @@ public class GuangyuTest {
 		assertEquals(4, gy.run("abbcdaddsa"));
 	}
 	
-
+	@Test
+	public void testRun5() {
+		
+		assertEquals(3, gy.run("bbbbbbbbbbbbbbbbbbbbbacbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb"));
+	}
 }
